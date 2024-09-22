@@ -1,6 +1,6 @@
 # Daily Leetcode Solutions
 
-This repository contains my solutions to the daily LeetCode challenges, organized by the year and month in which they were solved. Problem is implemented JavaScript, Python, Java, and C++.
+This repository contains my solutions to the daily LeetCode challenges, organized by language in chronological orfer. Problems are implemented using JavaScript, TypeScript, Python, Java, and C++.
 
 ## LeetCode Profile
 [![LeetCode Profile](https://img.shields.io/badge/LeetCode-zac_macarthur-blue?logo=leetcode&style=for-the-badge)](https://leetcode.com/zac_macarthur/)
