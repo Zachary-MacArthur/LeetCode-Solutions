@@ -1,0 +1,7 @@
+//parmas: array of strings
+//return: sorted array shortest to longset
+//ex ["Telescopes", "Glasses", "Eyes", "Monocles"] -> ["Telescopes", "Glasses", "Eyes", "Monocles"]
+// pseudocode: use the sort method on array to sort by length
+function sortByLength (array) {
+ return array.sort((a,b) => a.length - b.length)
+}
