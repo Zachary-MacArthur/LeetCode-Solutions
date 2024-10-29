@@ -13,7 +13,7 @@ function findJewels(jewels, stones){
     const map = {}
     let count = 0
     //confirm all the jewels - loop
-    for (const jewel of jewel){
+    for (const jewel of jewels){
         map[jewel] = true
     }
     // compare all of my stones to see if jewels -
