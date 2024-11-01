@@ -38,3 +38,39 @@ function max(str) {
     }
     return maxChar;
 }
+//or 
+// //params: array of integers
+// //return true or false if any value appears at least twice
+// //ex Input: nums = [1,2,3,1] Output: true
+// //pseudocode: create an object, loop through array add to object if value already exists in object return true
+// function containsDuplicate(nums) {
+//     const seen = {};
+//         for (const num of nums) {
+//         if (seen[num]) {
+//             return true;
+//         }
+//                 seen[num] = true;
+//     }
+    
+//     return false;
+// }
+
+// // Alternative solution using Map
+// function containsDuplicateWithMap(nums) {
+//     // Create a hash map using Map
+//     const seen = new Map();
+    
+//     // Iterate through the array
+//     for (const num of nums) {
+//         // If the number is already in the map, we found a duplicate
+//         if (seen.has(num)) {
+//             return true;
+//         }
+        
+//         // Otherwise, add the number to the map
+//         seen.set(num, true);
+//     }
+    
+//     // If we've gone through the entire array without finding duplicates
+//     return false;
+// }
