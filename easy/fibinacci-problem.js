@@ -22,3 +22,21 @@ function fib(numsGenerated){
     }
     return sequence[numsGenerated]
 }
+
+/**
+param: n number of setps
+return: return n number of fib sequence
+ex: Input: n = 2
+Output: 1
+Explanation: F(2) = F(1) + F(0) = 1 + 0 = 1.
+
+//  */
+// var fib = function(n) {
+//     let arr = [0,1]
+//     for(let i = 2; i <= n; i++){
+//         let a = i - 1
+//         let b = i -2
+//         arr.push(arr[a] + arr[b])
+//     }
+//     return arr[n]
+// };
