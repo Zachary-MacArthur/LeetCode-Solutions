@@ -11,3 +11,13 @@ function vowelCount(text){
     return count
     
 }
+
+// using regex
+ function vowelsCounter(text) {
+    let matchingInstances = text.match(/[aeriou]/gi);
+    if (matchingInstances) {
+        return matchingInstances.length
+     } else {
+        return 0
+     }
+ }
