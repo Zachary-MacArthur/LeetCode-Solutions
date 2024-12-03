@@ -24,3 +24,5 @@ function pigLatin(str) {
         return str.slice(vowelIndex) + str.slic(0, vowelIndex) + 'ay'
     }
 }
+
+
