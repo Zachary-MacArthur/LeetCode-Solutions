@@ -12,5 +12,12 @@ function falsyBouncer(array){
     return result
 }
 
+//using filter()
+
+function falsyBouncer(array){
+    return array.filter((value) => {
+        return Boolean(value)
+    })
+}
 
 
