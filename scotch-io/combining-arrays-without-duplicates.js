@@ -42,3 +42,4 @@ function mergeArrays(...arrays) {
     const uniqueArray = jointArray.filter((item,index) => jointArray.indexOf(item) === index)
     return uniqueArray
 }
+
