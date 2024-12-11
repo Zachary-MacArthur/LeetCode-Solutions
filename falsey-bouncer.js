@@ -12,7 +12,7 @@ function falsyBouncer(array){
     return result
 }
 
-//using filter()
+//using filter
 
 function falsyBouncer(array){
     return array.filter((value) => {
